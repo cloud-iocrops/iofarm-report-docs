@@ -1,1 +1,56 @@
-<h1>Slabvwc management example</h1>
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css\"
+      rel="stylesheet"
+    />
+    <title>함수율 관리 예시</title>
+    <style>
+      body {
+        font-family: "Pretendard Variable", sans-serif;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.6;
+        background: #fafafa;
+        margin: 0;
+        padding: 1rem;
+        padding-bottom: 1.5rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div style="display: flex; flex-direction: column; gap: 0.5rem">
+      <strong style="color: #368aed">Good case</strong>
+      <p style="margin: 0; margin-bottom: 1rem">
+        외부 광량이나 날씨 변화와 관계 없이 매일 일정한 함수율을 유지하는 경우.
+      </p>
+    </div>
+    <img
+      src="../assets//slabvwc/goodcase.png"
+      alt="함수율 관리 예시 - Good case"
+      style="width: 100%"
+    />
+    <div
+      style="
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+      "
+    >
+      <strong style="color: #e65b62">Bad case</strong>
+      <p style="margin: 0; margin-bottom: 1rem">
+        흐린 날에는 높은 함수율, 맑은 날에는 낮은 함수율처럼 외부 환경에 따라
+        함수율 변동이 심한 경우.
+      </p>
+    </div>
+    <img
+      src="../assets//slabvwc/badcase.png"
+      alt="함수율 관리 예시 - Bad case"
+      style="width: 100%"
+    />
+  </body>
+</html>
