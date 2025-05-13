@@ -1,1 +1,77 @@
-<h1>wc range</h1>
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css\"
+      rel="stylesheet"
+    />
+    <title>적정 WC 일출딥 범위</title>
+    <style>
+      body {
+        font-family: "Pretendard Variable", sans-serif;
+        font-size: 1rem;
+        font-weight: 400;
+        background: #fafafa;
+        margin: 0;
+        padding: 1rem;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+      td {
+        font-size: 0.875rem;
+        padding: 0.5rem 1rem;
+        border: 0.063rem solid #eee;
+      }
+      th {
+        padding: 0.5rem 1rem;
+        border: 0.063rem solid #eee;
+        font-weight: 400;
+        color: #999;
+        background: #f5f5f5;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <th style="width: 20%">구분</th>
+        <th style="width: 25%">기준(%)</th>
+        <th style="text-align: start">의미</th>
+      </tr>
+      <tr>
+        <td style="width: 20%; background: #f5f5f5; text-align: center">
+          미달
+        </td>
+        <td style="width: 25%; text-align: center">< 1</td>
+        <td style="text-align: start">
+          일출 후 배지 함수율이 충분히 감소하지 않아 뿌리털 생성이 저해될 수
+          있습니다.
+        </td>
+      </tr>
+      <tr>
+        <td style="width: 20%; background: #f5f5f5; text-align: center">
+          적정
+        </td>
+        <td style="width: 25%; text-align: center">1 ~ 2</td>
+        <td style="text-align: start">
+          일출 후 이상적인 함수율 감소폭으로 뿌리털이 활발히 생성되는 이상적인
+          상태입니다.
+        </td>
+      </tr>
+      <tr>
+        <td style="width: 20%; background: #f5f5f5; text-align: center">
+          초과
+        </td>
+        <td style="width: 25%; text-align: center">> 2</td>
+        <td style="text-align: start">
+          일출 후 함수율 감소가 과도해 작물에 수분 스트레스를 줄 위험이
+          있습니다.
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
