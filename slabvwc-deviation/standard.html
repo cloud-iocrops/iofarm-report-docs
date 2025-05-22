@@ -4,8 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
-      href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css\"
       rel="stylesheet"
+      as="style"
+      crossorigin
+      href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css"
     />
     <title>적정 WC 일출딥 범위</title>
     <style>
@@ -44,12 +46,12 @@
         <th style="text-align: start">의미</th>
       </tr>
       <tr>
-        <td style="width: 20%; background: #f5f5f5; text-align: center;">미달</td>
+        <td style="width: 20%; background: rgba(255, 101, 101, 0.16); text-align: center;">미달</td>
         <td style="width: 25%; text-align: center">< 5</td>
         <td style="text-align: start">배지가 과습하여 뿌리 생육이 저해될 수 있습니다.</td>
       </tr>
       <tr>
-        <td rowspan="3" style="width: 20%; background: #f5f5f5; text-align: center;">적정</th>
+        <td rowspan="3" style="width: 20%; background: rgba(54, 123, 235, 0.16); text-align: center;">적정</th>
         <td style="width: 25%; text-align: center">5 ~ 6.9</th>
         <td style="text-align: start">영양생장을 촉진하는데 적절한 함수율 편차입니다.</td>
       </tr>
@@ -62,13 +64,14 @@
         <td style="text-align: start">생식생장을 촉진하는데 적합한 함수율 편차입니다.</td>
       </tr>
       <tr>
-        <td style="width: 20%; background: #f5f5f5; text-align: center;">초과</td>
+        <td style="width: 20%; background: rgba(255, 101, 101, 0.16); text-align: center;">초과</td>
         <td style="width: 25%; text-align: center">> 10</td>
         <td style="text-align: start">배지가 과도하게 건조해져 작물의 생육이 저해될 수 있습니다.</td>
       </tr>
-      <caption style="margin-top: 0.5rem; caption-side: bottom; text-align: start; color: #666; font-size: 0.75rem; align-content: center;">
-        * 함수율 편차 기준은 작목이나 재배 특성에 따라 달라질 수 있습니다.
-      </caption>
     </table>
+    <div style="display: flex; gap: 0.25rem; align-items: center; margin-top: 1rem; height: 1.5rem;">
+      <img src="../assets/Issue.svg" style="width: 1rem; height: 1rem; vertical-align: middle;"/>
+      <span style="color: #e9902b; font-size: 0.875rem;">기준값은 작목이나 재배 특성에 따라 달라질 수 있습니다.</span>
+    </div>
   </body>
 </html>
